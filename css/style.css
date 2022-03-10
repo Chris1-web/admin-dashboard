@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* suggested colors */
+:root {
+  --primary-background-color: #5c12a1;
+  --primary-text-color: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.aside {
+  font-size: 1.2rem;
+}
