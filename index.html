@@ -10,16 +10,16 @@
   <body>
     <div class="container">
       <aside class="aside side-navigation">
+        <li>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="black"
+              d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z"
+            />
+          </svg>
+          DASHBOARD
+        </li>
         <ul class="top-side-navigation">
-          <li>
-            <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
-              <path
-                fill="currentColor"
-                d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z"
-              />
-            </svg>
-            DASHBOARD
-          </li>
           <li>
             <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
               <path
@@ -27,7 +27,7 @@
                 d="M12 5.69L17 10.19V18H15V12H9V18H7V10.19L12 5.69M12 3L2 12H5V20H11V14H13V20H19V12H22L12 3Z"
               />
             </svg>
-            Home
+            <span>Home</span>
           </li>
           <li>
             <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@
                 d="M22,3H2C0.91,3.04 0.04,3.91 0,5V19C0.04,20.09 0.91,20.96 2,21H22C23.09,20.96 23.96,20.09 24,19V5C23.96,3.91 23.09,3.04 22,3M22,19H2V5H22V19M14,17V15.75C14,14.09 10.66,13.25 9,13.25C7.34,13.25 4,14.09 4,15.75V17H14M9,7A2.5,2.5 0 0,0 6.5,9.5A2.5,2.5 0 0,0 9,12A2.5,2.5 0 0,0 11.5,9.5A2.5,2.5 0 0,0 9,7M14,7V8H20V7H14M14,9V10H20V9H14M14,11V12H18V11H14"
               />
             </svg>
-            Profile
+            <span> Profile </span>
           </li>
           <li>
             <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@
                 d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M20 16H5.2L4 17.2V4H20V16M12 12.4L14.6 14L13.9 11L16.2 9L13.2 8.7L12 6L10.8 8.8L7.8 9L10.1 11L9.4 14L12 12.4Z"
               />
             </svg>
-            Messages
+            <span>Messages</span>
           </li>
           <li>
             <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
@@ -54,7 +54,7 @@
                 d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3"
               />
             </svg>
-            History
+            <span>History</span>
           </li>
           <li>
             <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
@@ -63,16 +63,16 @@
                 d="M19,4H18V2H16V4H8V2H6V4H5A2,2 0 0,0 3,6V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V6A2,2 0 0,0 19,4M19,20H5V10H19V20M5,8V6H19V8H5M10.56,18.46L16.5,12.53L15.43,11.47L10.56,16.34L8.45,14.23L7.39,15.29L10.56,18.46Z"
               />
             </svg>
-            Tasks
+            <span>Tasks</span>
           </li>
           <li>
-            <<svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
               <path
                 fill="currentColor"
                 d="M12,5A3.5,3.5 0 0,0 8.5,8.5A3.5,3.5 0 0,0 12,12A3.5,3.5 0 0,0 15.5,8.5A3.5,3.5 0 0,0 12,5M12,7A1.5,1.5 0 0,1 13.5,8.5A1.5,1.5 0 0,1 12,10A1.5,1.5 0 0,1 10.5,8.5A1.5,1.5 0 0,1 12,7M5.5,8A2.5,2.5 0 0,0 3,10.5C3,11.44 3.53,12.25 4.29,12.68C4.65,12.88 5.06,13 5.5,13C5.94,13 6.35,12.88 6.71,12.68C7.08,12.47 7.39,12.17 7.62,11.81C6.89,10.86 6.5,9.7 6.5,8.5C6.5,8.41 6.5,8.31 6.5,8.22C6.2,8.08 5.86,8 5.5,8M18.5,8C18.14,8 17.8,8.08 17.5,8.22C17.5,8.31 17.5,8.41 17.5,8.5C17.5,9.7 17.11,10.86 16.38,11.81C16.5,12 16.63,12.15 16.78,12.3C16.94,12.45 17.1,12.58 17.29,12.68C17.65,12.88 18.06,13 18.5,13C18.94,13 19.35,12.88 19.71,12.68C20.47,12.25 21,11.44 21,10.5A2.5,2.5 0 0,0 18.5,8M12,14C9.66,14 5,15.17 5,17.5V19H19V17.5C19,15.17 14.34,14 12,14M4.71,14.55C2.78,14.78 0,15.76 0,17.5V19H3V17.07C3,16.06 3.69,15.22 4.71,14.55M19.29,14.55C20.31,15.22 21,16.06 21,17.07V19H24V17.5C24,15.76 21.22,14.78 19.29,14.55M12,16C13.53,16 15.24,16.5 16.23,17H7.77C8.76,16.5 10.47,16 12,16Z"
               />
             </svg>
-            Communities
+            <span>Communities</span>
           </li>
         </ul>
         <ul class="bottom-side-navigation">
@@ -397,39 +397,86 @@
         </article>
         <div class="side-contents">
           <section class="announcements">
-            <div class="anouncement-1">
-              <h2>Site Maintenance</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-                dignissimos aliquid unde totam, non debitis tempore explicabo
-                cumque, veritatis reiciendis rem nostrum eaque voluptate, labore
-                molestiae hic ratione corrupti ipsa.
-              </p>
-            </div>
-            <div class="anouncement-2">
-              <h2>Community Share Day</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-                dignissimos aliquid unde totam, non debitis tempore explicabo
-                cumque, veritatis reiciendis rem nostrum eaque voluptate, labore
-                molestiae hic ratione corrupti ipsa.
-              </p>
-            </div>
-            <div class="anouncement-3">
-              <h2>Community Share Day</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-                dignissimos aliquid unde totam, non debitis tempore explicabo
-                cumque, veritatis reiciendis rem nostrum eaque voluptate, labore
-                molestiae hic ratione corrupti ipsa.
-              </p>
+            <h2>Announcement</h2>
+            <div class="annoucement-section">
+              <div class="anouncement anouncement-1">
+                <h2>Site Maintenance</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Porro dignissimos aliquid unde totam, non debitis tempore
+                  explicabo cumque.
+                </p>
+              </div>
+              <div class="anouncement anouncement-2">
+                <h2>Community Share Day</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Porro dignissimos aliquid unde totam, non debitis tempore
+                  explicabo cumque.
+                </p>
+              </div>
+              <div class="anouncement anouncement-3">
+                <h2>Community Share Day</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Porro dignissimos aliquid unde totam, non debitis tempore
+                  explicabo cumque.
+                </p>
+              </div>
             </div>
           </section>
           <section class="trendings">
-            <div class="trending"></div>
-            <div class="trending"></div>
-            <div class="trending"></div>
-            <div class="trending"></div>
+            <h2>Trending</h2>
+            <div class="trending-section">
+              <div class="trending">
+                <div class="profile-picture">
+                  <img
+                    src="https://pngimg.com/uploads/pokemon/pokemon_PNG156.png"
+                    alt=""
+                  />
+                </div>
+                <div class="trending-texts">
+                  <h2>@tegan</h2>
+                  <p>World Peace Builder</p>
+                </div>
+              </div>
+              <div class="trending">
+                <div class="profile-picture">
+                  <img
+                    src="https://pngimg.com/uploads/pokemon/pokemon_PNG159.png"
+                    alt=""
+                  />
+                </div>
+                <div class="trending-texts">
+                  <h2>@spongebob</h2>
+                  <p>Super Cool Project</p>
+                </div>
+              </div>
+              <div class="trending">
+                <div class="profile-picture">
+                  <img
+                    src="https://pngimg.com/uploads/pokemon/pokemon_PNG141.png"
+                    alt=""
+                  />
+                </div>
+                <div class="trending-texts">
+                  <h2>@kendall</h2>
+                  <p>Life Changing App</p>
+                </div>
+              </div>
+              <div class="trending">
+                <div class="profile-picture">
+                  <img
+                    src="https://pngimg.com/uploads/pokemon/pokemon_PNG152.png"
+                    alt=""
+                  />
+                </div>
+                <div class="trending-texts">
+                  <h2>@alex</h2>
+                  <p>No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </main>
